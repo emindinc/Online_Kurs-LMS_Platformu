@@ -61,9 +61,11 @@
                     @if (User.Identity!.IsAuthenticated)
                     {
                         <li class="nav-item me-2">
-                            <span class="badge bg-warning text-dark fs-6">
+                            <a asp-controller="Ogrenci" asp-action="JetonSatinAl"
+                               class="badge bg-warning text-dark fs-6 text-decoration-none">
                                 <i class="bi bi-coin me-1"></i>@(ViewBag.JetonMiktari ?? 0) jeton
-                            </span>
+                                <i class="bi bi-plus-circle ms-1"></i>
+                            </a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
