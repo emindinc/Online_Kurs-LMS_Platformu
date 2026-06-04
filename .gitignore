@@ -1,6 +1,3 @@
-# Claude Code
-.claude/
-
 # .NET
 LMSPlatform/bin/
 LMSPlatform/obj/
@@ -11,3 +8,4 @@ LMSPlatform/lms.db-wal
 # VS/Rider
 .vs/
 *.user
+.claude/
