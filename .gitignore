@@ -1,11 +1,13 @@
+# Claude Code
+.claude/
+
 # .NET
-LMSPlatform/bin/
-LMSPlatform/obj/
-LMSPlatform/lms.db
-LMSPlatform/lms.db-shm
-LMSPlatform/lms.db-wal
+bin/
+obj/
+lms.db
+lms.db-shm
+lms.db-wal
 
 # VS/Rider
 .vs/
 *.user
-.claude/
